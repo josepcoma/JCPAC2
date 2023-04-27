@@ -1,0 +1,120 @@
+{
+  "@context" : {
+    "hasPrice" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#hasPrice",
+      "@type" : "@id"
+    },
+    "Age" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Age"
+    },
+    "AltitudeOfYardGrapes" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#AltitudeOfYardGrapes"
+    },
+    "hasRating" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#hasRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "Winery" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Winery"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Country"
+    },
+    "Reserve" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Reserve"
+    },
+    "Type" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Type"
+    },
+    "Aging" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Aging"
+    },
+    "Body" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Body"
+    },
+    "OriginDenomination" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#OriginDenomination"
+    },
+    "TypeOfGrapes" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#TypeOfGrapes"
+    },
+    "White" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#White"
+    },
+    "Rose" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Rose"
+    },
+    "Price" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Price"
+    },
+    "ColorOfWine" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#ColorOfWine"
+    },
+    "hasType" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#hasType",
+      "@type" : "@id"
+    },
+    "LastCentury" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#LastCentury"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Rating"
+    },
+    "Red" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Red"
+    },
+    "Swetness" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Swetness"
+    },
+    "VeryGoodQuality" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#VeryGoodQuality"
+    },
+    "GreatReserve" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#GreatReserve"
+    },
+    "OtherType" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#OtherType"
+    },
+    "Acidity" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Acidity"
+    },
+    "Year" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Year"
+    },
+    "AlcoholLevel" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#AlcoholLevel"
+    },
+    "sameAs" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasYear" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#hasYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "NumReviews" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#NumReviews"
+    },
+    "Young" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Young"
+    },
+    "TypeOfVat" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#TypeOfVat"
+    },
+    "Region" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Region"
+    },
+    "hasOriginDenomination" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#hasOriginDenomination",
+      "@type" : "@id"
+    },
+    "CurrentCentury" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#CurrentCentury"
+    },
+    "Wine" : {
+      "@id" : "http://www.semanticweb.org/coma/ontologies/2023/3/WinePAC2#Wine"
+    }
+  }
+}
